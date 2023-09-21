@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.pokemon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://e0.pxfuel.com/wallpapers/1023/397/desktop-wallpaper-pokemon-pokedex-background-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: 10rem 14rem;
+  background-position-x: center;
+}
+
+.pokemon-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  margin-top: 1.5rem;
+}
+
+.nome-pokemon{
+  font-size: 32px;
+  font-optical-sizing: #060606;
+  text-transform: capitalize;
+  font-family: Roboto Mono;
+  color: #e6bc2f;
+  margin-top: 5rem;
+}
+
+.buttonsNextPrevious{
+  font-size: 24px;
+  background-color: rgb(34, 27, 27);
+  color: #FFF;
+}
+
+.ash{
+  position: absolute;
+  left: 80%;
+  z-index: 999;
+  height: 51%;
+  mix-blend-mode: darken;
+  top: 10%;
+}
+.ash2{
+  position: absolute;
+  left: 9%;
+  z-index: 999;
+  height: 51%;
+  mix-blend-mode: darken;
+  top: 10%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
